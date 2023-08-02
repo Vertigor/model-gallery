@@ -13,7 +13,7 @@ config_file: |
   # Default model parameters
   parameters:
     # Relative to the models path
-    model: wizardcoder-guanaco-15b-v1.0.ggmlv1.q4_0.bin
+    model: WizardCoder-15B-1.0.ggmlv3.q8_0.bin
     temperature: 0.9
     top_k: 50
     top_p: 0.95
@@ -27,9 +27,9 @@ config_file: |
   - <|endoftext|>
   - <|end|>
 files:
-    - filename: "wizardcoder-guanaco-15b-v1.0.ggmlv1.q4_0.bin"
+    - filename: "WizardCoder-15B-1.0.ggmlv3.q8_0.bin"
       sha256: "f36668ddf22403a332f978057d527cf285b01468bc3431b04094a7bafa6aba59"
-      uri: "https://huggingface.co/TheBloke/WizardCoder-Guanaco-15B-V1.0-GGML/resolve/main/wizardcoder-guanaco-15b-v1.0.ggmlv1.q4_0.bin"
+      uri: "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML/blob/main/WizardCoder-15B-1.0.ggmlv3.q8_0.bin"
 
 prompt_templates:
 - name: "wizardcode-completion"
