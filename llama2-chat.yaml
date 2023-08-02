@@ -16,7 +16,9 @@ config_file: |
     temperature: 0.2
     top_p: 0.7
   context_size: 4096
+  threads: 64
   gpu_layers: 32
+  debug: true
   mmap: true
   template:
     chat_message: llama2-chat-message
