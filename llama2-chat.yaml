@@ -18,6 +18,8 @@ config_file: |
   context_size: 4096
   threads: 48
   f16: true
+  main_gpu: "0"
+  tensor_split: "4,2,2,2"
   gpu_layers: 43
   debug: true
   mmap: true
