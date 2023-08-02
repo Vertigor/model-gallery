@@ -12,7 +12,6 @@ config_file: |
   backend: "llama"
   parameters:
     model: llama-2-70b-chat.ggmlv3.q2_K.bin
-    gqa: 8
     top_k: 80
     temperature: 0.2
     top_p: 0.7
