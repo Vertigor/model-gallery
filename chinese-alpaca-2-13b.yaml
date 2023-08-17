@@ -15,12 +15,12 @@ config_file: |
     top_k: 5
     temperature: 0.1
     top_p: 0.5
-  context_size: 4096
-  threads: 96
-  f16: true
+  #context_size: 4096
+  threads: 16
+  #f16: true
   #gpu_layers: 43
-  debug: true
-  mmap: true
+  #debug: true
+  #mmap: true
   template:
     chat_message: chinese-alpaca-2-13b-chat-message
   system_prompt: |
