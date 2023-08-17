@@ -19,7 +19,7 @@ config_file: |
   context_size: 4096
   #f16: true
   #gpu_layers: 43
-  #debug: true
+  debug: true
   mmap: true
   template:
     chat_message: chinese-alpaca-2-13b-chat-message
