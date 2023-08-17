@@ -16,7 +16,7 @@ config_file: |
     temperature: 0.1
     top_p: 0.5
   threads: 16
-  #context_size: 4096
+  context_size: 4096
   #f16: true
   #gpu_layers: 43
   #debug: true
