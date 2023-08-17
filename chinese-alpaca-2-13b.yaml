@@ -12,11 +12,11 @@ config_file: |
   backend: "llama"
   parameters:
     model: ./chinese-alpaca-2-13b/ggml-model-f16.bin
-    top_k: 80
-    temperature: 0.2
-    top_p: 0.7
+    top_k: 5
+    temperature: 0.1
+    top_p: 0.5
   context_size: 4096
-  threads: 48
+  threads: 96
   f16: true
   #gpu_layers: 43
   debug: true
