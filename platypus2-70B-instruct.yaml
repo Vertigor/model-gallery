@@ -11,7 +11,8 @@ config_file: |
   name: platypus2-70B-instruct
   backend: "llama"
   parameters:
-    model: ./Platypus2-70B-instruct/ggml-model-f16.bin
+    #model: ./Platypus2-70B-instruct/ggml-model-f16.bin
+    model: ./Platypus2-70B-instruct/ggml-model-q8_0.bin
     top_k: 80
     temperature: 0.2
     top_p: 0.7
