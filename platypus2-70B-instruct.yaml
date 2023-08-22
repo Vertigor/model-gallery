@@ -21,6 +21,7 @@ config_file: |
   f16: true
   ngqa: 8
   gpu_layers: 20000
+  cuda: true
   debug: true
   mmap: true
   template:
