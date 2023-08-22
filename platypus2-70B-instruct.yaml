@@ -18,10 +18,8 @@ config_file: |
     top_p: 0.7
   context_size: 4096
   threads: 48
-  f16: true
   ngqa: 8
   gpu_layers: 20000
-  main_gpu: all
   debug: true
   mmap: true
   template:
