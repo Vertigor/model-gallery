@@ -20,7 +20,7 @@ config_file: |
   threads: 48
   f16: true
   ngqa: 8
-  #gpu_layers: 43
+  gpu_layers: 20000
   debug: true
   mmap: true
   template:
