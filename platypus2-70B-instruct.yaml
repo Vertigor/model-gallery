@@ -21,7 +21,7 @@ config_file: |
   ngqa: 8
   gpu_layers: 20000
   debug: true
-  mmap: true
+  mmap: false
   template:
     chat_message: llama2-chat-message
   system_prompt: |
